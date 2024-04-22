@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/group9/HashgraphVisualiser/lachesis/crypto"
+	"github.com/goplush/HashgraphVisualiser/lachesis/crypto"
 )
 
 func TestSignBlock(t *testing.T) {

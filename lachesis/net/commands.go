@@ -1,6 +1,6 @@
 package net
 
-import "github.com/group9/HashgraphVisualiser/lachesis/hashgraph"
+import "github.com/goplush/HashgraphVisualiser/lachesis/hashgraph"
 
 type SyncRequest struct {
 	FromID int

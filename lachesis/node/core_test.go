@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/group9/HashgraphVisualiser/lachesis/common"
-	"github.com/group9/HashgraphVisualiser/lachesis/crypto"
-	hg "github.com/group9/HashgraphVisualiser/lachesis/hashgraph"
+	"github.com/goplush/HashgraphVisualiser/lachesis/common"
+	"github.com/goplush/HashgraphVisualiser/lachesis/crypto"
+	hg "github.com/goplush/HashgraphVisualiser/lachesis/hashgraph"
 )
 
 func TestInit(t *testing.T) {

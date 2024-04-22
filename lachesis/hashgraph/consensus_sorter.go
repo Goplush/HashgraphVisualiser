@@ -3,7 +3,7 @@ package hashgraph
 import (
 	"math/big"
 
-	"github.com/group9/HashgraphVisualiser/lachesis/crypto"
+	"github.com/goplush/HashgraphVisualiser/lachesis/crypto"
 )
 
 type ConsensusSorter struct {

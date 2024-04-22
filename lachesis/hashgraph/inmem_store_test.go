@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/group9/HashgraphVisualiser/lachesis/crypto"
+	"github.com/goplush/HashgraphVisualiser/lachesis/crypto"
 )
 
 type pub struct {

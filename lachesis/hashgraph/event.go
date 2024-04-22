@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/group9/HashgraphVisualiser/lachesis/crypto"
+	"github.com/goplush/HashgraphVisualiser/lachesis/crypto"
 )
 
 type EventBody struct {

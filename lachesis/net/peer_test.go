@@ -10,7 +10,7 @@ import (
 
 	"reflect"
 
-	scrypto "github.com/group9/HashgraphVisualiser/lachesis/crypto"
+	scrypto "github.com/goplush/HashgraphVisualiser/lachesis/crypto"
 )
 
 func TestJSONPeers(t *testing.T) {

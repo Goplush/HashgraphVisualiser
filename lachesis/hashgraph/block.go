@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/group9/HashgraphVisualiser/lachesis/crypto"
+	"github.com/goplush/HashgraphVisualiser/lachesis/crypto"
 )
 
 type BlockBody struct {

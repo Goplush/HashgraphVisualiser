@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/group9/HashgraphVisualiser/lachesis/hashgraph"
+	"github.com/goplush/HashgraphVisualiser/lachesis/hashgraph"
 )
 
 const (

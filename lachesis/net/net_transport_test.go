@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/group9/HashgraphVisualiser/lachesis/common"
-	"github.com/group9/HashgraphVisualiser/lachesis/hashgraph"
+	"github.com/goplush/HashgraphVisualiser/lachesis/common"
+	"github.com/goplush/HashgraphVisualiser/lachesis/hashgraph"
 )
 
 func TestNetworkTransport_StartStop(t *testing.T) {

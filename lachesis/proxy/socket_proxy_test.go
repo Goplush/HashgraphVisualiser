@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/group9/HashgraphVisualiser/lachesis/common"
-	"github.com/group9/HashgraphVisualiser/lachesis/hashgraph"
-	aproxy "github.com/group9/HashgraphVisualiser/lachesis/proxy/app"
+	"github.com/goplush/HashgraphVisualiser/lachesis/common"
+	"github.com/goplush/HashgraphVisualiser/lachesis/hashgraph"
+	aproxy "github.com/goplush/HashgraphVisualiser/lachesis/proxy/app"
 )
 
 func TestSocketProxyServer(t *testing.T) {

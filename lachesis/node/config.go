@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/group9/HashgraphVisualiser/lachesis/common"
+	"github.com/goplush/HashgraphVisualiser/lachesis/common"
 	"github.com/sirupsen/logrus"
 )
 

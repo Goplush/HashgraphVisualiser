@@ -6,9 +6,9 @@ import (
 
 	"time"
 
-	"github.com/group9/HashgraphVisualiser/lachesis/crypto"
-	"github.com/group9/HashgraphVisualiser/lachesis/hashgraph"
-	bproxy "github.com/group9/HashgraphVisualiser/lachesis/proxy/lachesis"
+	"github.com/goplush/HashgraphVisualiser/lachesis/crypto"
+	"github.com/goplush/HashgraphVisualiser/lachesis/hashgraph"
+	bproxy "github.com/goplush/HashgraphVisualiser/lachesis/proxy/lachesis"
 	"github.com/sirupsen/logrus"
 )
 
@@ -84,9 +84,9 @@ func (a *State) getFile() (*os.File, error) {
 //------------------------------------------------------
 
 type DummySocketClient struct {
-	state       *State
+	state         *State
 	lachesisProxy *bproxy.SocketLachesisProxy
-	logger      *logrus.Logger
+	logger        *logrus.Logger
 }
 
 func NewDummySocketClient(clientAddr string, nodeAddr string, logger *logrus.Logger) (*DummySocketClient, error) {
@@ -103,9 +103,9 @@ func NewDummySocketClient(clientAddr string, nodeAddr string, logger *logrus.Log
 	state.writeMessage([]byte(clientAddr))
 
 	client := &DummySocketClient{
-		state:       &state,
+		state:         &state,
 		lachesisProxy: lachesisProxy,
-		logger:      logger,
+		logger:        logger,
 	}
 
 	go client.Run()

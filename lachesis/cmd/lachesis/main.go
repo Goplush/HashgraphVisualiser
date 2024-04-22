@@ -14,14 +14,14 @@ import (
 	"github.com/sirupsen/logrus"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/group9/HashgraphVisualiser/lachesis/crypto"
-	hg "github.com/group9/HashgraphVisualiser/lachesis/hashgraph"
-	"github.com/group9/HashgraphVisualiser/lachesis/net"
-	"github.com/group9/HashgraphVisualiser/lachesis/node"
-	"github.com/group9/HashgraphVisualiser/lachesis/proxy"
-	aproxy "github.com/group9/HashgraphVisualiser/lachesis/proxy/app"
-	"github.com/group9/HashgraphVisualiser/lachesis/service"
-	"github.com/group9/HashgraphVisualiser/lachesis/version"
+	"github.com/goplush/HashgraphVisualiser/lachesis/crypto"
+	hg "github.com/goplush/HashgraphVisualiser/lachesis/hashgraph"
+	"github.com/goplush/HashgraphVisualiser/lachesis/net"
+	"github.com/goplush/HashgraphVisualiser/lachesis/node"
+	"github.com/goplush/HashgraphVisualiser/lachesis/proxy"
+	aproxy "github.com/goplush/HashgraphVisualiser/lachesis/proxy/app"
+	"github.com/goplush/HashgraphVisualiser/lachesis/service"
+	"github.com/goplush/HashgraphVisualiser/lachesis/version"
 )
 
 var (

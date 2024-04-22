@@ -3,7 +3,7 @@ package hashgraph
 import (
 	"fmt"
 
-	cm "github.com/group9/HashgraphVisualiser/lachesis/common"
+	cm "github.com/goplush/HashgraphVisualiser/lachesis/common"
 )
 
 type Key struct {

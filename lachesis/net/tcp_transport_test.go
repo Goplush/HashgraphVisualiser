@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/group9/HashgraphVisualiser/lachesis/common"
+	"github.com/goplush/HashgraphVisualiser/lachesis/common"
 )
 
 func TestTCPTransport_BadAddr(t *testing.T) {

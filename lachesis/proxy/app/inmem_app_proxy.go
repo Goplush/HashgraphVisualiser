@@ -1,8 +1,8 @@
 package app
 
 import (
-	bcrypto "github.com/group9/HashgraphVisualiser/lachesis/crypto"
-	"github.com/group9/HashgraphVisualiser/lachesis/hashgraph"
+	bcrypto "github.com/goplush/HashgraphVisualiser/lachesis/crypto"
+	"github.com/goplush/HashgraphVisualiser/lachesis/hashgraph"
 	"github.com/sirupsen/logrus"
 )
 
